@@ -7,13 +7,15 @@
 	<script>
 	$(document).ready(function(){
 		$.ajax({url: "topnavbar.html", success: function(result){
-		  $("#topnav").html(result);
+		  $("#topnavmenu").html(result);
 		}});
 	});
 	</script>	
 </head>
 <body>
-	<div id="topnav"></div>
+	<div id="topnav">
+		<div id="topnavmenu"></div>
+	</div>
 	<!-- SSS_Start_LeftColumn-->
 	<div class="SSS_Start_LeftColumn">
 			<!--<h3>Record Selection</h3>-->
