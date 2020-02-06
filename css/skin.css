@@ -51,11 +51,11 @@ img {
 /** END: HANDLING TOP MENU 1 **************************/
 /* Style the links inside the navigation bar */
 .topnav1 {
-	height: 200px;
+	height: 50px;
 }
 .topnav1 a {
   float: left;
-  color: #f2f2f2;
+  color: #b3d1ff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -64,13 +64,13 @@ img {
 
 /* Change the color of links on hover */
 .topnav1 a:hover {
-  background-color: #0040ff;
+  background-color: #66a3ff;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav1 a.active {
-  background-color: #0000ff;
+  background-color: #1a75ff;
   color: white;
 }
 /** END: HANDLING TOP MENUR **************************/
