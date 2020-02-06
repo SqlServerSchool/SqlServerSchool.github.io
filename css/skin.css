@@ -23,7 +23,8 @@ img {
 /** START: HANDLING TOP MENU **************************/
 /* Add a black background color to the top navigation */
 .topnav {
-	background-color: #66a3ff;
+	background-color: #cce0ff;
+	color: #000000;
 	overflow: hidden;
 }
 
@@ -54,6 +55,7 @@ img {
 /* Add a black background color to the top navigation */
 .topnav1 {
 	background-color: #cce0ff;
+	color: #000000;
 	overflow: hidden;
 }
 
