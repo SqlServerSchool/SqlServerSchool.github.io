@@ -8,29 +8,21 @@
 	$(document).ready(function(){
 		$.ajax({url: "topmenu1.html", success: function(result){$("#topnavmenu1").html(result);}});
 		$.ajax({url: "topmenu2.html", success: function(result){$("#topnavmenu2").html(result);}});
+		$.ajax({url: "chapter_1_menu.html", success: function(result){$("#leftcolumnmenu").html(result);}});
 	});
 	</script>	
 </head>
 <body>
+	<!-- Toppest Menu bar-->
 	<div id="topnavmenu1" class="topnav1"></div>
+	
+	<!-- Top Menu bar-->
 	<div id="topnavmenu2" class="topnav"></div>
+
 	<!-- SSS_Start_LeftColumn-->
-	<div class="SSS_Start_LeftColumn">
-			<!--<h3>Record Selection</h3>-->
-			<ul class="toc chapters">
-				<li class="heading">Record Selection 11</li>
-				<li><a href="/ms_sql_server/index.htm">Select all the columns</a></li>
-				<li><a href="/ms_sql_server/ms_sql_server_overview.htm">Select single column</a></li>
-				<li><a href="/ms_sql_server/ms_sql_server_editions.htm">Select two or more columns</a></li>
-			</ul>			
-			<!--<h3>Record Selection</h3>-->
-			<ul class="toc chapters">
-				<li class="heading">Record Alias 1</li>
-				<li><a href="/ms_sql_server/index.htm">Column Alias</a></li>
-				<li><a href="/ms_sql_server/ms_sql_server_overview.htm">Table Alias</a></li>
-				<li><a href="/ms_sql_server/ms_sql_server_editions.htm">Column Alias and Table Alias</a></li>
-			</ul>			
-	</div>
+	<div id="leftcolumnmenu" class="SSS_Start_LeftColumn"></div>
+	
+	
 	<!-- SSS_End_LeftColumn-->
 	<!-- SSS_Start_MiddleColumn-->
 	<div class="SSS_Start_MiddleColumn">
