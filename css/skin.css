@@ -50,31 +50,19 @@ img {
 	color: white;
 }
 /** END: HANDLING TOP MENU 1 **************************/
-<<<<<<< HEAD
-/** START: HANDLING TOP MENU **************************/
-/* Add a black background color to the top navigation */
-.topnav1 {
-	background-color: #e6e6e6;
-=======
 
 /** START: HANDLING TOP MENU **************************/
 /* Add a black background color to the top navigation */
 .topnav1 {
 	background-color: #cce0ff;
 	color: #000000;
->>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
 	overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav1 a {
-<<<<<<< HEAD
-	float: left;
-	color: #cccccc;
-=======
 	float: right;
 	color: #f2f2f2;
->>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -83,22 +71,12 @@ img {
 
 /* Change the color of links on hover */
 .topnav1 a:hover {
-<<<<<<< HEAD
-	background-color: #999999;
-=======
 	background-color: #99c2ff;
->>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
 	color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav1 a.active {
-<<<<<<< HEAD
-	background-color: #999999;
-	color: white;
-}
-/** END: HANDLING TOP MENU 1 **************************/
-=======
 	background-color: #99c2ff;
 	color: white;
 }
@@ -144,4 +122,3 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /*END: RESET BROWSER*/
->>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
