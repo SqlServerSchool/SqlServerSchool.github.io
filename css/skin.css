@@ -23,7 +23,8 @@ img {
 /** START: HANDLING TOP MENU **************************/
 /* Add a black background color to the top navigation */
 .topnav {
-	background-color: #0080ff;
+	background-color: #99c2ff;
+	color: #000000;
 	overflow: hidden;
 }
 
@@ -39,27 +40,41 @@ img {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-	background-color: #0040ff;
+	background-color: #3385ff;
 	color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-	background-color: #0000ff;
+	background-color: #3385ff;
 	color: white;
 }
 /** END: HANDLING TOP MENU 1 **************************/
+<<<<<<< HEAD
 /** START: HANDLING TOP MENU **************************/
 /* Add a black background color to the top navigation */
 .topnav1 {
 	background-color: #e6e6e6;
+=======
+
+/** START: HANDLING TOP MENU **************************/
+/* Add a black background color to the top navigation */
+.topnav1 {
+	background-color: #cce0ff;
+	color: #000000;
+>>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
 	overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav1 a {
+<<<<<<< HEAD
 	float: left;
 	color: #cccccc;
+=======
+	float: right;
+	color: #f2f2f2;
+>>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -68,13 +83,65 @@ img {
 
 /* Change the color of links on hover */
 .topnav1 a:hover {
+<<<<<<< HEAD
 	background-color: #999999;
+=======
+	background-color: #99c2ff;
+>>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
 	color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav1 a.active {
+<<<<<<< HEAD
 	background-color: #999999;
 	color: white;
 }
 /** END: HANDLING TOP MENU 1 **************************/
+=======
+	background-color: #99c2ff;
+	color: white;
+}
+/** END: HANDLING TOP MENU 1 **************************/
+
+li.heading {
+    margin: 0;
+    background: #0067c7;
+    font-size: 100%;
+    border: 1px solid #797777;
+    padding: 15px 0 15px 15px!important;
+    color: #fff;
+}
+ul.toc>li {
+    position: relative;
+    display: block;
+    border-bottom: 1px dotted #bbb;
+}
+
+
+
+/*START: RESET BROWSER*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*
+	font-size: 100%;
+	font: inherit;
+	*/
+	vertical-align: baseline;
+}
+/*END: RESET BROWSER*/
+>>>>>>> 6621363f1dd31fb034e58804fc4c295f8c3e81a9
