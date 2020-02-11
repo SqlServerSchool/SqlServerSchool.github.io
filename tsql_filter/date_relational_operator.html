@@ -9,6 +9,7 @@
 		$.ajax({url: "/menu/top_menu_1.html", success: function(result){$("#topnavmenu1").html(result);}});
 		$.ajax({url: "/menu/top_menu_2.html", success: function(result){$("#topnavmenu2").html(result);}});
 		$.ajax({url: "/tsql_filter/menu_left_column_chapter_2.html", success: function(result){$("#leftcolumnmenu").html(result);}});
+		$('<img>').on('load', imageLoaded).attr('src', $(img).attr('src'));
 	});
 	</script>	
 </head>
@@ -23,7 +24,7 @@
 
 	<!-- SSS_Start_MiddleColumn-->
 	<div class="SSS_Start_MiddleColumn">
-		<h3>Concept Discussion: Date Relational Operator(>,>=,<,<=,=,!=)</h3>
+		<h3>Concept Discussion: Date Relational Operator(>,>=,<,<=,=,!=) Version 1</h3>
 	
 		<hr><h3>Step 1: Question Asked</h3><hr>
 		<img src="/images/SSS_IQB_2.2.1/Slide1.JPG" alt="Question 1">
