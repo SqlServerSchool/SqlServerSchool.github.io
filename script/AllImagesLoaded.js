@@ -1,3 +1,4 @@
+$(document).ready(function() {
   // Images loaded is zero because we're going to process a new set of images.
   var imagesLoaded = 0;
   // Total images is still the total number of <img> elements on the page.
@@ -22,3 +23,4 @@
   function allImagesLoaded() {
     console.log('ALL IMAGES LOADED');
   }
+});
