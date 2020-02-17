@@ -10,30 +10,6 @@
 		$.ajax({url: "/menu/top_menu_1.html", success: function(result){$("#topnavmenu1").html(result);}});
 		$.ajax({url: "/menu/top_menu_2.html", success: function(result){$("#topnavmenu2").html(result);}});
 		$.ajax({url: "/tsql_filter/menu_left_column_chapter_2.html", success: function(result){$("#leftcolumnmenu").html(result);}});
-		  // Images loaded is zero because we're going to process a new set of images.
-		  var imagesLoaded = 0;
-		  // Total images is still the total number of <img> elements on the page.
-		  var totalImages = $('img').length;
-
-		  // Step through each image in the DOM, clone it, attach an onload event
-		  // listener, then set its source to the source of the original image. When
-		  // that new image has loaded, fire the imageLoaded() callback.
-		  $('img').each(function(idx, img) {
-		    $('<img>').on('load', imageLoaded).attr('src', $(img).attr('src'));
-		  });
-
-		  // Do exactly as we had before -- increment the loaded count and if all are
-		  // loaded, call the allImagesLoaded() function.
-		  function imageLoaded() {
-		    imagesLoaded++;
-		    if (imagesLoaded == totalImages) {
-		      allImagesLoaded();
-		    }
-		  }
-
-		  function allImagesLoaded() {
-		    console.log('ALL IMAGES LOADED');
-		  }
 	});
 	</script>	
 </head>
@@ -48,36 +24,86 @@
 
 	<!-- SSS_Start_MiddleColumn-->
 	<div class="SSS_Start_MiddleColumn">
-		<h3>Concept Discussion: Date Relational Operator(>,>=,<,<=,=,!=) Version 2</h3>
+		<div class="concept">
+			<h3>Concept Discussion: Date Relational Operator(>,>=,<,<=,=,!=) Version 3</h3>
+		</div>
 	
-		<hr><h3>Step 1: Question Asked</h3><hr>
-		<img src="/images/SSS_IQB_2.2.1/Slide1.JPG" alt="Question 1">
-		<hr><h3>Step 2: Solution and Query Execution Result</h3><hr>
-		<img src="/images/SSS_IQB_2.2.1/Slide2.JPG" alt="Question 1">
-		<hr><h3>Step 3: Concept Generalization</h3><hr>
-		<img src="/images/SSS_IQB_2.2.1/Slide3.JPG" alt="Question 1">
-		
-		<hr><h3>Step 1: Question Asked</h3><hr>
-		<img src="/images/SSS_IQB_2.2.2/Slide1.JPG" alt="Question 1">
-		<hr><h3>Step 2: Solution and Query Execution Result</h3><hr>
-		<img src="/images/SSS_IQB_2.2.2/Slide2.JPG" alt="Question 1">
-		<hr><h3>Step 3: Concept Generalization</h3><hr>
-		<img src="/images/SSS_IQB_2.2.2/Slide3.JPG" alt="Question 1">
+		<div class="content_text">
+			<h3>Step 1: Question Asked</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.1/Slide1.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 2: Solution and Query Execution Result</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.1/Slide2.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 3: Concept Generalization</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.1/Slide3.JPG" alt="Question 1">
+		</div>
+
+		<div class="content_text">
+			<h3>Step 1: Question Asked</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.2/Slide1.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 2: Solution and Query Execution Result</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.2/Slide2.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 3: Concept Generalization</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.2/Slide3.JPG" alt="Question 1">
+		</div>
 
 
-		<hr><h3>Step 1: Question Asked</h3><hr>
-		<img src="/images/SSS_IQB_2.2.3/Slide1.JPG" alt="Question 1">
-		<hr><h3>Step 2: Solution and Query Execution Result</h3><hr>
-		<img src="/images/SSS_IQB_2.2.3/Slide2.JPG" alt="Question 1">
-		<hr><h3>Step 3: Concept Generalization</h3><hr>
-		<img src="/images/SSS_IQB_2.2.3/Slide3.JPG" alt="Question 1">	
+		<div class="content_text">
+			<h3>Step 1: Question Asked</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.3/Slide1.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 2: Solution and Query Execution Result</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.3/Slide2.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 3: Concept Generalization</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.3/Slide3.JPG" alt="Question 1">	
+		</div>
 
-		<hr><h3>Step 1: Question Asked</h3><hr>
-		<img src="/images/SSS_IQB_2.2.4/Slide1.JPG" alt="Question 1">
-		<hr><h3>Step 2: Solution and Query Execution Result</h3><hr>
-		<img src="/images/SSS_IQB_2.2.4/Slide2.JPG" alt="Question 1">
-		<hr><h3>Step 3: Concept Generalization</h3><hr>
-		<img src="/images/SSS_IQB_2.2.4/Slide3.JPG" alt="Question 1">		
+		<div class="content_text">
+			<h3>Step 1: Question Asked</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.4/Slide1.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 2: Solution and Query Execution Result</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.4/Slide2.JPG" alt="Question 1">
+		</div>
+		<div class="content_text">
+			<h3>Step 3: Concept Generalization</h3>
+		</div>
+		<div class="content_image">
+			<img src="/images/SSS_IQB_2.2.4/Slide3.JPG" alt="Question 1">		
+		</div>
 	</div>
 	<!-- SSS_End_MiddleColumn-->
 	
